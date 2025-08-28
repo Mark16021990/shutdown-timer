@@ -1,14 +1,13 @@
-# Файлы Python
+# venv
+venv/
+.venv/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
-# Виртуальное окружение
-venv/
-env/
-
-# Сборки
+# PyInstaller
 build/
 dist/
 *.spec
@@ -17,6 +16,6 @@ dist/
 .vscode/
 .idea/
 
-# Системные файлы
+# OS
 .DS_Store
 Thumbs.db
